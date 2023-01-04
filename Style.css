@@ -7,10 +7,38 @@
 a {
     text-decoration: none;
 }
+
+ul {
+    list-style: none;
+}
+
+/* Nav */
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+
+}
+
+/* End of navbar */
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(./Images/pexels-pixabay-264151.jpg);
+    background-image: url(./Images/castelmezzano-1979546_1920.jpg);
     background-position: bottom;
     background-size: cover;
     display: flex;
