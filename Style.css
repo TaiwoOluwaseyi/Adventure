@@ -43,6 +43,13 @@ header {
     margin-bottom: 30px;
 }
 
+.ctn {
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
 
 
 
